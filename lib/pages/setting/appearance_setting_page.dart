@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 import 'package:eros_n/common/enum.dart';
 import 'package:eros_n/common/provider/settings_provider.dart';
@@ -11,7 +10,6 @@ import 'package:keframe/keframe.dart';
 
 import 'setting_base.dart';
 
-@RoutePage()
 class AppearanceSettingPage extends StatelessWidget {
   const AppearanceSettingPage({Key? key}) : super(key: key);
 

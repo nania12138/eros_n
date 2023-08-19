@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'dart:ui';
 
 import 'package:eros_n/common/const/const.dart';
@@ -9,7 +8,6 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:open_by_default/open_by_default.dart';
 
-@RoutePage()
 class GeneralSettingPage extends StatelessWidget {
   const GeneralSettingPage({Key? key}) : super(key: key);
 

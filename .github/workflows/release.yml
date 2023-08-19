@@ -1,7 +1,6 @@
 name: Release
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - 'master'
@@ -21,12 +20,12 @@ jobs:
             flutter_channel: 'stable'
             artifact_name: release-apk
             artifact_path: build/app/outputs/apk/release/*.apk
-#          - target: ios
-#            os: macos-12
-#            flutter_version: '3.7'
-#            flutter_channel: 'stable'
-#            artifact_name: release-ios
-#            artifact_path: build/**/*.ipa
+          - target: ios
+            os: macos-12
+            flutter_version: '3.7'
+            flutter_channel: 'stable'
+            artifact_name: release-ios
+            artifact_path: build/**/*.ipa
 #          - target: macos
 #            os: macos-12
 #            flutter_version: '3.7'

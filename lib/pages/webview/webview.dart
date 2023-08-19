@@ -1,8 +1,6 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
-@RoutePage()
 class NhWebViewPage extends StatelessWidget {
   const NhWebViewPage({Key? key, required this.initialUrl, this.title})
       : super(key: key);

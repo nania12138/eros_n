@@ -15,7 +15,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../../../utils/logger.dart';
 import 'index_provider.dart';
 
-@RoutePage()
 class IndexPage extends StatefulHookConsumerWidget {
   const IndexPage({super.key});
 

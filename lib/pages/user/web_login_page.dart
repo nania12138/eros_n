@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'dart:io' as io;
 
 import 'package:eros_n/common/const/const.dart';
@@ -12,7 +11,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-@RoutePage<List<Cookie>>()
 class WebLoginPage extends StatelessWidget {
   const WebLoginPage({
     Key? key,

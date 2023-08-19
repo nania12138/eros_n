@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:eros_n/common/enum.dart';
 import 'package:eros_n/common/provider/settings_provider.dart';
 import 'package:eros_n/generated/l10n.dart';
@@ -8,7 +7,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'setting_base.dart';
 
-@RoutePage()
 class ReadSettingPage extends StatelessWidget {
   const ReadSettingPage({Key? key}) : super(key: key);
 

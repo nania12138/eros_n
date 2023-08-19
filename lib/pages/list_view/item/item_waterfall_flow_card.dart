@@ -63,9 +63,9 @@ class ItemWaterfallFlowCard extends HookConsumerWidget {
       foregroundDecoration: (gallery.languageCode == 'ja' ||
               gallery.languageCode == null)
           ? null
-          : RotatedCornerDecoration.withColor(
+          : RotatedCornerDecoration(
               color: Theme.of(context).colorScheme.primary.withOpacity(0.8),
-              badgeSize: const Size(38, 28),
+              geometry: const BadgeGeometry(width: 38, height: 28),
               textSpan: TextSpan(
                 text: gallery.languageCode?.toUpperCase() ?? '',
                 style:

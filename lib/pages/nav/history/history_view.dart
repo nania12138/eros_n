@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'dart:async';
 
 import 'package:eros_n/common/extension.dart';
@@ -17,7 +16,6 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:nil/nil.dart';
 import 'package:sliver_tools/sliver_tools.dart';
 
-@RoutePage()
 class HistoryPage extends StatefulHookConsumerWidget {
   const HistoryPage({super.key});
 
